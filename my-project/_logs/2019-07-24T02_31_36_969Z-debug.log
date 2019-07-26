@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\node.js\\node.exe',
+1 verbose cli   'D:\\node.js\\node_cache\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'audit',
+1 verbose cli   'fix' ]
+2 info using npm@6.10.1
+3 info using node@v10.16.0
+4 verbose npm-session 05196a5bb7daa57a
+5 verbose stack Error: Errors were found in your package-lock.json, run  npm install  to fix them.
+5 verbose stack     Missing: chromedriver@^2.27.2
+5 verbose stack     at lockVerify.then (D:\node.js\node_cache\node_modules\npm\lib\audit.js:184:19)
+6 verbose cwd D:\新建文件夹\my-project
+7 verbose Windows_NT 10.0.16299
+8 verbose argv "D:\\node.js\\node.exe" "D:\\node.js\\node_cache\\node_modules\\npm\\bin\\npm-cli.js" "audit" "fix"
+9 verbose node v10.16.0
+10 verbose npm  v6.10.1
+11 error code ELOCKVERIFY
+12 error Errors were found in your package-lock.json, run  npm install  to fix them.
+12 error     Missing: chromedriver@^2.27.2
+13 verbose exit [ 1, true ]
